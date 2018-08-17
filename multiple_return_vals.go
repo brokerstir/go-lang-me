@@ -6,8 +6,16 @@ import (
 )
 
 func main() {
-  fileInfo, _ := os.Stat("existent.txt")
-  fmt.Println(fileInfo.Size())
-  fileInfo, _ = os.Stat("nonexisten.txt")
-  fmt.Println(fileInfo.Size())
+  fileInfo, error := os.Stat("existent.txt")
+  if error != nil {
+    fmt.Println(error)
+  } else {
+    fmt.Println(fileInfo.Size())
+  }
+  fileInfo, error = os.Stat("nonexisten.txt")
+  if error != nil {
+    fmt.Println(error)
+  } else {
+    fmt.Println(fileInfo.Size())
+  }
 }
