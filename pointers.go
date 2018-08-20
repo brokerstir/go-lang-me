@@ -1,15 +1,21 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	myNumber := 2.6
-	halve(&myNumber)                              // Does nothing!
-	fmt.Println("myNumber in 'main':", myNumber) // Prints 2.6!
+	car := Car {
+		Doors:			4,
+		Transmission:	"automatic",
+		Odometer:		36000,
+	}
+	describe(&car)
 }
 
-func halve(number *float64) {
-	*number = *number / 2
-	fmt.Println("*number in 'halve':", *number) // Prints 1.3, but change is only effective here!
+func describe(c, *Car) {
+	fmt.Println("A", c.Doors, "door")
+	fmt.Println(c.Transmission, "car")
+	fmt.Println("width", c.Odometer, "miles")
 }
 
