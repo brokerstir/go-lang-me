@@ -1,2 +1,6 @@
 https://goo.gl/PHKgO7
 for course resources 
+
+command documentation on go
+build info
+escape character i.e. /n
