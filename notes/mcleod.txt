@@ -4,3 +4,11 @@ for course resources
 command documentation on go
 build info
 escape character i.e. /n
+
+sec 5, lec 40
+func main is entry point to executable
+
+
+sec 5, lec 41
+use shorthand and var (idomatic ways)
+
