@@ -12,3 +12,13 @@ func main is entry point to executable
 sec 5, lec 41
 use shorthand and var (idomatic ways)
 
+sec 5, lec 48
+constants II
+variables with no declared type are referred to as "Kind"
+they live in ideal space and can receive default types
+see go blog post on constants
+
+sec 5, lec 50
+youtube todd mcleod CIT 15 Week 03
+
+
