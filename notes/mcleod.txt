@@ -1,5 +1,5 @@
 https://goo.gl/PHKgO7
-for course resources 
+for course resources
 
 command documentation on go
 build info
@@ -20,5 +20,13 @@ see go blog post on constants
 
 sec 5, lec 50
 youtube todd mcleod CIT 15 Week 03
+
+sec 7, lec 75
+When you hit a return in a function, the functions is done.
+
+sec 7, lec 76
+must know keyword in go: defer
+(lexical element)
+good to use when working with open files in funcition. defer close of file.
 
 
