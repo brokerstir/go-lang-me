@@ -27,6 +27,6 @@ When you hit a return in a function, the functions is done.
 sec 7, lec 76
 must know keyword in go: defer
 (lexical element)
-good to use when working with open files in funcition. defer close of file.
+good to use when working with open files in funcition. defer close of file.ali
 
 
