@@ -29,4 +29,23 @@ must know keyword in go: defer
 (lexical element)
 good to use when working with open files in funcition. defer close of file.ali
 
+sec 7, lec 77
+go is pass by value
+everything passed into function is a value
+value could be an address
+
+sec 77, lec 77
+maps and slices are reference types that are
+already reference to an an address
+maps are also reference types
+
+sec, lec 78
+anonymous self executing functions
+allow for functional program
+but not encourage in go
+
+sec, lec 79
+expressions that valuate to a type bool
+
+
 
