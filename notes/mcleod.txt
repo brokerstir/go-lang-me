@@ -47,5 +47,54 @@ but not encourage in go
 sec, lec 79
 expressions that valuate to a type bool
 
+sec 7, lec 84
+review, funcs
+purpose of funcs are to abstract code
+break stuff up into packages
+primary purpose of funcs is to abstract code
+makes code reusuable
+use a func you pass in args
+params used when declare a function
+enclosure can limit scope of function
+everything in go is passed by value
+
+how funcs are defined,
+unique to go
+func, receiver, identifier, params, returns
+
+Sec 8, lec 86
+arrays
+indentifiable fy and index
+does not change in size
+look for numbers in bracket, if no numbers then it's a slice
+var x [58]string. is an array of string of length 58
+not used directly much in go, it has more underlying uses
+
+
+sec 8, lec 87
+an array of bytes
+a byte is 8 bits
+is there a byte type?
+a byte is a a numeric type an is alias for uint8
+
+sec 9, lec 88
+read language spec on slices
+no number between brackets is how we know it's a slice
+looks like array when printed out
+a slice is a list
+slice vs. slicing vs. index access
+a slice can be sliced is mySlice[2:4] last param not inclusive
+slices are dynamic
+use make command to make slice
+slice is reference type
+make command can specify capacity
+capacity refers to length of underlying array
+slice points to underlying array
+
+
+
+
+
+
 
 
