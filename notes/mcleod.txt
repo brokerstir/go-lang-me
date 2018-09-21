@@ -91,6 +91,27 @@ make command can specify capacity
 capacity refers to length of underlying array
 slice points to underlying array
 
+sec 9, lec 89
+must use append to add slice item out of range
+
+sec 9, lec 90
+mulit dimen slice
+slice inside a slice
+two dimension east ti conceptualize
+
+sec 9, lec 91
+shorthand slice
+slice has header
+1. holds address for underlying data structure
+2. length
+3. capacity
+can use make for reference types like slice
+if you use var you get a nil slice because nothing gets made
+so, can't reference indexes, have to use append
+much better to use make so you can reference indexes
+takeaway, you have 3 methods to declare a slice, there is shorthand, var, and make
+documentation uses make
+
 
 
 
