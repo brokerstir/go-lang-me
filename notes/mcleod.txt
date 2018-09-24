@@ -113,8 +113,61 @@ takeaway, you have 3 methods to declare a slice, there is shorthand, var, and ma
 documentation uses make
 
 
+sec 9, lec 93
+
+Slice is a data structure used to store a list of values of a certain type
+
+Slice of int, string, byte
+
+Slices are built of three elements: pointer to underlying array, lenght, capacity
+
+Slice is a reference type. It references and underlying array.
+
+Why length and capacity are different? Performance.
+
+When length exceeds capacity, and new array is made with double capacity.
+
+A slice points to an array
+
+Value of uninitialized slice is nil
+
+no number in bracket means a slice
+
+cap(a)
+to get capacity
+
+make is used to make a slice
+
+index out of range errors
+
+var gives uninitialized slice, must use append
 
 
+sec 10, lec 94
+maps are for key value association
+some languages call these dictionary
+it's another data structures
+slices for lists, maps for key value pairs, and structs for composit variables
+
+maps are unordered
+uninitialized values are nil
+maps are built on top of hash table
+
+speaking go
+sometimes understand more than we can say
+
+slices are ref types, maps and channels are ref types
+
+slice points to array, stores address, length and capacity
+
+maps store a pointer to an addrees where data is stored, so you won't take address of slice or map, it already is one.
+
+
+sec 10, lec 95
+
+you give key value when you declare a map, i.e. give it types
+maps are not ordered
+think about how maps are reference types
 
 
 
