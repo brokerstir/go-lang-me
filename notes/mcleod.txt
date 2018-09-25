@@ -170,5 +170,12 @@ maps are not ordered
 think about how maps are reference types
 
 
+Sec 10, Lec 96
+Two ways to make a map
+
+slice and maps are reference types
+are already addresses
+already a pointer pointing to something
+
 
 

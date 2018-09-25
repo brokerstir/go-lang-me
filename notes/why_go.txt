@@ -1,0 +1,3 @@
+Why Go?
+
+Php can't do what Go does...

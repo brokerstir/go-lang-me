@@ -1,0 +1,118 @@
+Go was created at Google
+The best software firm in world
+
+Google hit a wall.
+They created a language to fit their  needs.
+Current languages fell short.
+Also,
+Major Contributors to the language are:
+Ken Thompson - C, Unix, UTF-8
+Rob Pike - Unix, UTF-8
+Robert Griesemer - Hotspot JVM
+
+Three Luminaries of Computer Science
+Created bedrocks of the industry.
+
+INTRODUCTION
+Sec 1, Lec 2
+
+Amazing Credentials
+
+What makes Go Awesome?
+
+The purpose of the Go Project:
+golang.org/doc/faq
+
+Linnk to article : Go at Google: Language design
+
+Summar:
+1. Super Performant
+2. C is written to run on single core
+3. But Go was written to language on multiple cores
+4. Go scales horizontally really well.
+5. Can run concurrency really well.
+6. Compiled language. It boils down to binary. There is no interpreter.
+7. Garbage collected so memory management is done for you.
+8. It's low level language, systems level language with a standard libray that lets you do high level things.
+9. Compiles on many different OSs
+10. Can compile programs to run on different architecture.
+11. Backed by Google, and it's open source.
+
+
+Brad Fitzpatrick image from presentation.
+His perspective.
+
+Version 1 2012, guranteed to not break bacwards compatibility
+
+August 2015, standard library was finished.
+
+TJ Holowaychuk
+Farewell Node.js
+Primary contributor to Node.js, left Node for Go
+Felix Geisendorfer ditto
+
+Go can do everything
+
+========================================
+Lec 3
+
+Go Playground
+Dictates where curly brackets are
+Go can be very opinionated
+Does not use semicolon but compiler inserts it
+
+fmt package
+
+standard library
+golang.org only has standard library
+
+godoc.org also has third party packages
+sorted in order of goodness, ranked by github possibly
+
+
+
+golang.org/pkg/fmt
+- change to
+golang.org/src/fmt
+- to see all source files for the package
+
+notice package declaration
+
+
+Chinese company server load
+
+=========================
+
+Sec 7, Lec 66
+
+functions
+	params
+	return
+	variadic
+	slice
+	func expression
+	callback
+	closure
+	callbacks
+	recursion
+	defer
+	passingby value
+
+reference types
+
+
+Lec 67,
+
+func main()  is the entry point to your program.
+
+you can only have one, and it has to be in package main
+
+parens is where params are declared, returns go after parms
+
+func, receiver, (params), return
+
+
+Lec 68,
+
+How to return a variable from a function,
+Unique to be able to return multiple values
