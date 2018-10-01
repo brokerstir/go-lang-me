@@ -177,5 +177,13 @@ slice and maps are reference types
 are already addresses
 already a pointer pointing to something
 
+Sec 10, Lec 97
+Maps
+maps a reference type
+already a pointer
+
+Sec 10, Lec 98
+Documentation Maps
+www.golang-book.com/boods/intro/6
 
 
