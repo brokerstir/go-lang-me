@@ -187,3 +187,43 @@ Documentation Maps
 www.golang-book.com/boods/intro/6
 
 
+Sec 10, Lec 99
+Map Documentation
+comparison operators must be fully defined for key typs, thus key type must not be a funciton, map or slice.
+Nil map, can't ammend
+
+Lec 100
+Range Loop for Maps
+
+Lec 101
+Github Pull
+
+Lec 102
+hash tables
+the way to go book
+ref types are slices, maps, and channels
+
+hash table one of most useful data structures in comp science
+go provides a built-in maps type that implements a hash table
+lool at go blog search maps in action
+or search for macro view of map internals in go
+
+hash table is underlying data structure of a map
+hash tables allow for quick search
+
+imagine an unsorted dictionary
+now sort it, and categorize by letters
+
+category is like a bucket in a hash table
+but buckets need an even distribution, which go does
+
+Lec 103
+build a hash table
+
+Lec 104
+preview a hash table
+
+Lec 105
+building a hast table
+defer means something runs before the program is finished, closes a program before it exits.
+
