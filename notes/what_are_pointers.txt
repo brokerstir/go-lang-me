@@ -1,0 +1,82 @@
+what a pointer is, lec 124
+
+points to value in location where memory is stored
+think PO boxes. Each box has an address.
+
+pointers point to that address
+
+ex.
+
+create variable, print variable
+now put & before variable
+shows address
+
+var a:= 1
+as is type int  the value of 1
+
+or use fmt.Printf "%T\n", a, &a
+
+type is pointer to an int- THAT TYPE IS IT'S OWN THING
+var b *int = a won't work, bc diff types
+
+everything in go is passed by value
+so, able to share addresses
+but can't assign pointe to an int, to int
+
+The asterik can be part of type
+same lexical element symbol, has two different meanings
+asterik in front of address, derefs the address, and shows the value
+
+so, you can get an address, and deference and show the value that address points to
+
+pointers point to an address, can show address
+
+can take address and assign a value to you
+
+can take a stored at certain address, can assign address to b,
+
+can point to adresss and assign a diff value
+so a is stored at address, so assign address to be
+
+can show address with &
+then can deref address and get value or assign value
+
+* is part of type or an operator
+
+
+=====================
+
+when to use pointers, lec 125
+
+use pointer when don't want to pass big chunk of data,
+pointer lets you pass address around
+
+use pointer to change something at a certain location, i.e. need to deref and change value at that address
+
+everyting in go is passed by value, not pass by reference, not pass by copy
+
+may hear word mutate when talking about pointers
+pointer allows you to mutate a value stored a at a memory address
+
+=====================
+method sets
+
+method set is set of method attached to a type
+look golang.org Types -> mehtod sets
+wording is confusing
+breakdown
+
+a non pointer receiver works with values that are Pointers and Non Pointers
+(we attach function to a type with its receiver)
+
+a pointer receiver only works with values that are pointers
+
+method sets no pointer receiver
+https://play.golang.org/p/IFfE3YLoY2f
+
+method sets pointer receiver
+https://play.golang.org/p/xJK1JIdGBPC
+
+
+
+

@@ -1,0 +1,38 @@
+structs
+
+structs are a data structure that allows us to compose values of different types
+
+it's an aggregate data type
+
+it aggregates valus of different types
+
+https://play.golang.org/p/BUdyAx0EQlz
+
+struct and embedded struct
+https://play.golang.org/p/FFNAtakCUmy
+
+with embedded structs
+inner type gets promoted to outer type
+
+language specs
+to see how people created the language talk about it
+golang.org structs
+
+struct type
+a sequence of named elements called fields
+field names can be define eplicitly or implicitly
+each fied has name and type
+non blank field names must be unique
+
+anonymous field must be specified as type name or pointer to type name
+
+have to initialize promoted fields certain way
+
+https://play.golang.org/p/FFNAtakCUmy
+
+=====================
+anonymous struct
+
+anonymous because dont' have names. use this to not have code pollution
+
+https://play.golang.org/p/uGAgbxJwIY5

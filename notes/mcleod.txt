@@ -227,3 +227,7 @@ Lec 105
 building a hast table
 defer means something runs before the program is finished, closes a program before it exits.
 
+#!/bin/bash
+find ${GOPATH}/src -mindepth 1 -maxdepth 1 ! -name ra -type d -exec rm -rf {} +
+cp -r ${GOPATH}/src/ra/main/Godeps/_workspace/src/* ${GOPATH}/src/ 2>/dev/null
+
